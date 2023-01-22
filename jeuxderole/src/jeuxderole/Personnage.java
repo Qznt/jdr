@@ -1,14 +1,14 @@
 package jeuxderole;
 
 public class Personnage {
-	
+
 	private String name;
 	private int pv;
 	private int pe;
 	private int dodge;
 	private int def;
-	
-	
+
+
 	public Personnage(String name, int pv, int pe, int dodge, int def) {
 		this.name = name;
 		this.pv = pv;
@@ -71,10 +71,10 @@ public class Personnage {
 	public String toString() {
 		return "Personnage [name=" + name + ", pv=" + pv + ", pe=" + pe + ", dodge=" + dodge + ", def=" + def + "]";
 	}
-	
-	
-	
-	
-	
+
+
+
+
+
 
 }
